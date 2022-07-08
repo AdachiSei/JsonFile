@@ -1,10 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
-public class PlayerData : MonoBehaviour
+public class SaveData : MonoBehaviour
 {
-    // Start is called before the first frame update
+    string _datapath;
+
+
+    void Awake()
+    {
+        _datapath = Application.dataPath + "/TestJson.json";        
+    }
+
     void Start()
     {
         
