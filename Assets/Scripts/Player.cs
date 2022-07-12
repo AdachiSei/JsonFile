@@ -33,6 +33,8 @@ public class Player : MonoBehaviour
 
         Debug.Log("–¼‘O:" + _player2._name + " HP:" + _player2._hp + " Attack:" + _player2._attack + " Defense:" + _player2._defense);
     }
+    
+
 
     [System.Serializable]
     public class PlayerData
